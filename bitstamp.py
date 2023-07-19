@@ -36,7 +36,7 @@ def ao_receber_mensagem(ws, mensagem):
     price = mensagem['data']['price']
     print(price)
 
-    if price > 31000:
+    if price > 31002:
         vender()
     elif price < 30000:
         comprar()
